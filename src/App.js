@@ -1,10 +1,12 @@
-
+import React,{ Component } from 'react';
 
 function App() {
   return (
-  <p>
-    <p>Hello,world!</p>
-  </p>
+  <React.Fragment>
+    <label htmlFor="bar">bar</label>
+    <input type="text" onChange={() => {console.log("I am hideaki")}} />
+  </React.Fragment>
+    
   );
 }
 
